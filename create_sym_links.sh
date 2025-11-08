@@ -6,6 +6,7 @@ ln -s -f $PROJECT_DIR/emacs/.emacs ~/.emacs
 
 mkdir -p ~/.config/hypr
 ln -s -f $PROJECT_DIR/hypr/hyprland.conf ~/.config/hypr/hyprland.conf
+ln -s -f $PROJECT_DIR/hypr/hyprlock.conf ~/.config/hypr/hyprlock.conf
 
 mkdir -p ~/.config/hyprpaper/
 ln -s -f $PROJECT_DIR/hyprpaper/hyprpaper.conf ~/.config/hyprpaper/hyprpaper.conf
