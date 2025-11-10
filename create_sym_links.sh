@@ -14,3 +14,5 @@ ln -s -f $PROJECT_DIR/hyprpaper/hyprpaper.conf ~/.config/hyprpaper/hyprpaper.con
 mkdir -p ~/.config/waybar
 ln -s -f $PROJECT_DIR/waybar/config.jsonc ~/.config/waybar/config.jsonc
 ln -s -f $PROJECT_DIR/waybar/style.css ~/.config/waybar/style.css
+
+ln -s -f $PROJECT_DIR/.emacs ~/.emacs
