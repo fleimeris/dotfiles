@@ -14,8 +14,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+;; LSP config
 (setq lsp-keymap-prefix "C-c C-l")
-
 (require 'lsp-mode)
 (add-hook 'csharp-mode-hook #'lsp)
 
@@ -28,6 +28,8 @@
 ;; Display line numbers
 (global-display-line-numbers-mode 1)
 
+;; Disable tool bar
+(menu-bar-mode -1) 
 (tool-bar-mode -1)
 
 ;; Theme
